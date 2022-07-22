@@ -118,16 +118,16 @@ body{
     height: 5em;
     width: 7em;
 
-    border-radius: .1em;
+    border-radius: .2em;
     background-color: #000;
 }
 
 .each_donation:hover{
-    height: 4.7em;
-    width: 6.7em;
+    height: 4.6em;
+    width: 6.6em;
     border: .3em solid #000;
 
-    border-radius: .1em;
+    border-radius: .2em;
     background-color: #fff;
 }
 
@@ -203,14 +203,61 @@ input{
     color: #000;
 }
 
-.donation_plan_selection div{
+.donation_plan_heading{
+    margin-top: 4em;
+}
+
+#donation_plan_header_text{
+    text-align: center;
+}
+
+#donation_plan_para{
+    text-align: center;
+}
+
+.donation_plan_selection{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
+}
+
+#donation_plan_1{
+    border: .3em solid #000;
+    margin: 1em 4em;
+    height: 15em;
+    width: 25em;
+    background-color: #fff
+}
+
+#donation_plan_2{
+    border: .3em solid #000;
+    margin: 1em 4em;
+    height: 15em;
+    width: 25em;
+    background-color: #fff
+}
+
+#donation_plan_3{
+    border: .3em solid #000;
+    margin: 1em 4em;
+    height: 15em;
+    width: 25em;
+    background-color: #fff
+}
+
+.plans{
+    margin: 0em 4.5em;
+
+    font-size: 1em;
+    
+}
+
+.donation_plan_img{
+    margin: 3em 10em;
 }
 
 .footer{
-    height: 40em;
+    height: 7em;
     width:auto;
     background-color: #000;
 }
